@@ -3,7 +3,7 @@
 
 /**
  * main -start point
- *
+ * 
  * Print numbers from 1 to 100
  * Multiples of 3 fizz
  * Multiples of 5 buss
@@ -11,16 +11,16 @@
  * Result: Always 0
  */
 
-int main (void)
+int main(void)
 {
 	int i;
-
+	
 	for (i = 1; i <= 100; i++)
 	{
 		if (i % 15 == 0)
 			printf("FizzBuzz");
 		else if (i % 3 == 0)
-		        printf("Fizz");
+			printf("Fizz");
 		else if (i % 5 == 0)
 			printf("Buzz");
 		else
@@ -30,4 +30,4 @@ int main (void)
 	}
 	printf("\n");
 	return (0);
-}	
+}
