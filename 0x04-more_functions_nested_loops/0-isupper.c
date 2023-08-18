@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * This fucntion checks lower case
- * c: The input to be checked
+ * _isupper - This fucntion checks lower case
+ * @c: The input to be checked
  *
- * return: 1 for capital and 0 for lower case
+ * Return: 1 for capital and 0 for lower case
  */
 
 int _isupper(int c)
