@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * -atoi - converts string into integer
+ * _atoi - converts string into integer
  *  @s: string for convertion
  *  Return: converted string
  */
@@ -39,6 +39,6 @@ int _atoi(char *s)
 	}
 
 	if (f == 0)
-	       return (0);
+		return (0);
 	return (n);
 }
