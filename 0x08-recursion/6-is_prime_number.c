@@ -2,7 +2,7 @@
 
 /**
  * prime_a - determines if a number is prime
- * @a:input
+ * @a: input
  * @k: divisor
  * Return:(0)
  */
@@ -13,7 +13,7 @@ int prime_a(int a, int k)
 	{
 		return (0);
 	}
-	else if (a == 0)
+	else if (a == k)
 	{
 		return (1);
 	}
@@ -21,7 +21,8 @@ int prime_a(int a, int k)
 }
 
 /**
- * is_prime_number - returns 1 if the input integer is a prime number, otherwise return 0
+ * is_prime_number - returns 1 if the input integer is a prime number,
+ * otherwise return 0
  * @n: input of the number
  * Return: 0 or 1
  */
